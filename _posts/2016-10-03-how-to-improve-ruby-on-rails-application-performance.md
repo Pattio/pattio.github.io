@@ -187,9 +187,12 @@ However, you shouldn't cache every single bit of your application, because using
 
 # Conclusion
 
-So, next time when you write your application try to think for a second. Maybe application is slow not because of the framework, but because of how are you using the framework. And _"I will just buy more servers"_  is not something you should keep in your head as a silver bullet to your problem.
+So, next time when you are about to blame some framework for being slow stop and try to think for a second. Maybe application is slow not because of the framework, but because of how are you using the framework. And maybe 
+> I will just buy more servers
 
-However, keep in mind that you can’t just try to optimize every single bit of your application, you should run benchmarks and see which parts of your application are slow. After you find those parts you should search for what is causing slowness and how to fix that. If you will try to optimize every single piece of your application, you will spend your time inefficiently and barely increase your application performance. 
+is not something you should keep in your mind as a solution to performance problems.
+
+And finally, even though performance optimizations are great, keep in mind that you can’t just try to optimize every single bit of your application. You should run benchmarks and see which specific parts of your application are slow. After you find those parts you should search for what is causing slowness and how to fix that. Otherwise, if you will try to optimize every single piece of your application, you will spend your time inefficiently and barely increase your application performance. 
 
 
 ---
