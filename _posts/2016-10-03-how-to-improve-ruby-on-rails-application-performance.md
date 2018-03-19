@@ -82,7 +82,7 @@ In our `index.html.erb` file we have to change `post.user.name` to `post.user_na
 
 ### Final results
 
-Quries:
+Queries:
 * From **21** queries to just **1** query
 
 Time spent in `ActiveRecord`:
